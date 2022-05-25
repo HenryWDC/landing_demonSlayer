@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: monospace, Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    background: red;
+    font-weight: 700;
+    transition: all ease 0.5s;
+}
+
+.demon {
+    display: flex;
+}
+
+.button:hover {
+    color: white;
+    background: black;
+}
+
+.wapperPoster {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    background: url(midia/demon_slayer_poster-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.demonText {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    text-align: center;
+    font-size: 34px;
+}
+.subtitle {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.age {
+    border: 1px solid gray;
+    padding: 2px;
+    color: gray;
+    font-weight: 700;
+}
+.description {
+    width: 80%;
+    text-align: left;
+    margin-left: 10px;
+}
+footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.btns {
+    margin-top: 20px;
+}
+.btnRead {
+    margin-right: ;
+}
